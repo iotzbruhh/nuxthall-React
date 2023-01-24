@@ -31,7 +31,6 @@ const BlogPost = (props) => {
         <div className="blog-post-fixed-header">
           <Header rootClassName="header-root-class-name"></Header>
         </div>
-        <div className="blog-post-fixed-header1"></div>
         <div className="blog-post-bg">
           <h1 className="blog-post-text Text2XL">TENTANG</h1>
         </div>
@@ -69,19 +68,12 @@ const BlogPost = (props) => {
         <span className="blog-post-text012">
           <span>
             {' '}
-            1. Do not use any inappropriate profile picture/username 🫂
+            1. Do not use any inappropriate profile picture/username ⚠️
           </span>
           <br></br>
-          <span>
-            × Disrespecting this rule will result in a kick.
-            <span
-              dangerouslySetInnerHTML={{
-                __html: ' ',
-              }}
-            />
-          </span>
+          <span>× Disrespecting this rule will result in a kick.</span>
           <br></br>
-          <span>doin this 2 time will result in permanent ban.</span>
+          <span> doin this 2 time will result in permanent ban.</span>
           <br></br>
           <span>
             <span
@@ -94,51 +86,7 @@ const BlogPost = (props) => {
           <span>2. Do not Spamming 💬</span>
           <br></br>
           <span>
-            × Spamming chat
-            <span
-              dangerouslySetInnerHTML={{
-                __html: ' ',
-              }}
-            />
-          </span>
-          <br></br>
-          <span>will result in a warn then ban.</span>
-          <br></br>
-          <span>
-            <span
-              dangerouslySetInnerHTML={{
-                __html: ' ',
-              }}
-            />
-          </span>
-          <br></br>
-          <span>3. Do not Bullying or disrespecting any server member 🫂</span>
-          <br></br>
-          <span>
-            Bullying has detrimental effects on Members health,
-            <span
-              dangerouslySetInnerHTML={{
-                __html: ' ',
-              }}
-            />
-          </span>
-          <br></br>
-          <span>
-            wellbeing and learning. It can make Members feel
-            <span
-              dangerouslySetInnerHTML={{
-                __html: ' ',
-              }}
-            />
-          </span>
-          <br></br>
-          <span>
-            lonely, unhappy and frightened. This rule also applied to all ppl
-            <span
-              dangerouslySetInnerHTML={{
-                __html: ' ',
-              }}
-            />
+            × Spamming chat in discord, will result in a warn then ban.
           </span>
           <br></br>
           <span>
@@ -149,7 +97,39 @@ const BlogPost = (props) => {
             />
           </span>
           <br></br>
-          <span>4. Do not make any Unnecessary Drama 🎭</span>
+          <span>3. Do not Bullying or disrespecting any server member 🎭</span>
+          <br></br>
+          <span>
+            Bullying has detrimental effects on Members health, wellbeing and
+            <span
+              dangerouslySetInnerHTML={{
+                __html: ' ',
+              }}
+            />
+          </span>
+          <br></br>
+          <span>
+            learning. It can make Members feel lonely, unhappy and
+            <span
+              dangerouslySetInnerHTML={{
+                __html: ' ',
+              }}
+            />
+          </span>
+          <br></br>
+          <span>
+            frightened. This rule also applied to all ppl on the server.
+          </span>
+          <br></br>
+          <span>
+            <span
+              dangerouslySetInnerHTML={{
+                __html: ' ',
+              }}
+            />
+          </span>
+          <br></br>
+          <span>4. Do not make any Unnecessary Drama 🫂</span>
           <br></br>
           <span>
             Causing any drama like arguing and chaos isn&apos;t acceptable.
@@ -170,11 +150,18 @@ const BlogPost = (props) => {
             />
           </span>
           <br></br>
-          <span>5. No Homophobia, racism etc. 🫂</span>
+          <span>5. No Homophobia, racism etc. 🎭</span>
           <br></br>
-          <span>Why would you do that? here some punishment</span>
+          <span>
+            Why would you do that? here some punishment,
+            <span
+              dangerouslySetInnerHTML={{
+                __html: ' ',
+              }}
+            />
+          </span>
           <br></br>
-          <span> A ban! This is soo freaking cool isn&apos;t it?</span>
+          <span>A ban! This is soo freaking cool isn&apos;t it?</span>
           <br></br>
           <span>
             <span
@@ -229,13 +216,15 @@ const BlogPost = (props) => {
           <br></br>
           <span>8. No Death wishes or Dead treat 🪦</span>
           <br></br>
-          <span>× Wishing death upon other users</span>
+          <span>
+            × Wishing death upon other users (including staff) will result to
+            kick
+          </span>
           <br></br>
-          <span> (including staff) will result to kick</span>
-          <br></br>
-          <span>× Treating death to other users will result in</span>
-          <br></br>
-          <span> permanent ban + report to discord</span>
+          <span>
+            × Treating death to other users will result in permanent ban +
+            report
+          </span>
           <br></br>
           <span>
             <span
@@ -245,14 +234,42 @@ const BlogPost = (props) => {
             />
           </span>
           <br></br>
-          <span>9. Be cool, Kind. 😎</span>
+          <span>9. Use each channel for its purposes 📸</span>
           <br></br>
-          <span>Treat all members with respect and express</span>
+          <span>Every channel that created here have it&apos;s purpose.</span>
           <br></br>
-          <span> your thoughts in a constructive manner.</span>
+          <span> it&apos;s cool to have 3h ban because this rule</span>
           <br></br>
+          <span>
+            <span
+              dangerouslySetInnerHTML={{
+                __html: ' ',
+              }}
+            />
+          </span>
           <br></br>
-          <span> 10. Common sense 🗣️</span>
+          <span>10. Be cool, Kind. 😎</span>
+          <br></br>
+          <span>
+            Treat all members with respect and express your
+            <span
+              dangerouslySetInnerHTML={{
+                __html: ' ',
+              }}
+            />
+          </span>
+          <br></br>
+          <span>thoughts in a constructive manner.</span>
+          <br></br>
+          <span>
+            <span
+              dangerouslySetInnerHTML={{
+                __html: ' ',
+              }}
+            />
+          </span>
+          <br></br>
+          <span>11. Common sense 🗣️</span>
           <br></br>
           <span>Use your brain, if you have one.</span>
           <br></br>
@@ -264,10 +281,11 @@ const BlogPost = (props) => {
             />
           </span>
           <br></br>
-          <span>11. Lag media 📸</span>
+          <span>12. Lag media 📸</span>
           <br></br>
           <span>
-            Please don&apos;t send any pics or videos that makes the lag
+            Please don&apos;t send any pics or videos that makes the server
+            lagging
           </span>
           <br></br>
           <span>
@@ -278,7 +296,7 @@ const BlogPost = (props) => {
             />
           </span>
           <br></br>
-          <span>12. Ping/tag 🏓</span>
+          <span>13. Ping 📌</span>
           <br></br>
           <span>Ping are limited to certain occasion such an raid.</span>
           <br></br>
@@ -290,11 +308,12 @@ const BlogPost = (props) => {
             />
           </span>
           <br></br>
-          <span>13. Impersonation 🗣️</span>
+          <span>14. Impersonation 🗣️</span>
           <br></br>
-          <span>This is really unacceptable !</span>
-          <br></br>
-          <span> Impersonating anyone IS VERY PROHIBITED !!</span>
+          <span>
+            This is really unacceptable ! Impersonating anyone IS VERY
+            PROHIBITED !!
+          </span>
           <br></br>
           <span>
             <span
@@ -304,16 +323,15 @@ const BlogPost = (props) => {
             />
           </span>
           <br></br>
-          <span>14. No personal information 🛡️</span>
+          <span>15. No personal information ⚠️</span>
           <br></br>
           <span>Protect your own privacy and safety.</span>
           <br></br>
+          <br></br>
           <span>This includes :</span>
           <br></br>
-          <span>Age, full birthdate, place of birth,</span>
-          <br></br>
           <span>
-            personal address, geolocation,
+            Age, full birthdate, place of birth, personal address,
             <span
               dangerouslySetInnerHTML={{
                 __html: ' ',
@@ -322,7 +340,7 @@ const BlogPost = (props) => {
           </span>
           <br></br>
           <span>
-            school, phone number, email address,
+            geolocation, school, phone number, email address,
             <span
               dangerouslySetInnerHTML={{
                 __html: ' ',
@@ -330,56 +348,13 @@ const BlogPost = (props) => {
             />
           </span>
           <br></br>
-          <span>
-            first name, first initial and last name,
-            <span
-              dangerouslySetInnerHTML={{
-                __html: ' ',
-              }}
-            />
-          </span>
+          <span>first name, first initial and last name, full name,</span>
           <br></br>
-          <span>
-            full name, passport number,
-            <span
-              dangerouslySetInnerHTML={{
-                __html: ' ',
-              }}
-            />
-          </span>
-          <br></br>
-          <span>
-            driver&apos;s license number, IP
-            <span
-              dangerouslySetInnerHTML={{
-                __html: ' ',
-              }}
-            />
-          </span>
-          <br></br>
-          <span>
-            address, login ID details, images or video footage
-            <span
-              dangerouslySetInnerHTML={{
-                __html: ' ',
-              }}
-            />
-          </span>
-          <br></br>
-          <span>
-            containing means in which to identify,
-            <span
-              dangerouslySetInnerHTML={{
-                __html: ' ',
-              }}
-            />
-          </span>
-          <br></br>
-          <span>personal social media, social security number,</span>
+          <span> passport number, driver&apos;s license number,</span>
           <br></br>
           <span>
             {' '}
-            credit/bank card numbers, biometric data,
+            IP address, login ID details,
             <span
               dangerouslySetInnerHTML={{
                 __html: ' ',
@@ -388,7 +363,7 @@ const BlogPost = (props) => {
           </span>
           <br></br>
           <span>
-            other identification numbers linked to one&apos;s
+            images or video footage containing means in which to identify,
             <span
               dangerouslySetInnerHTML={{
                 __html: ' ',
@@ -397,7 +372,27 @@ const BlogPost = (props) => {
           </span>
           <br></br>
           <span>
-            identity and personal information,
+            personal social media, social security number, credit/bank card
+            numbers,
+            <span
+              dangerouslySetInnerHTML={{
+                __html: ' ',
+              }}
+            />
+          </span>
+          <br></br>
+          <span>
+            biometric data,
+            <span
+              dangerouslySetInnerHTML={{
+                __html: ' ',
+              }}
+            />
+          </span>
+          <br></br>
+          <span>
+            other identification numbers linked to one&apos;s identity and
+            personal information,
             <span
               dangerouslySetInnerHTML={{
                 __html: ' ',
@@ -408,14 +403,13 @@ const BlogPost = (props) => {
           <span>
             or any other information that can be traced to one individual
           </span>
-          <br></br>
         </span>
       </div>
       <div className="blog-post-posts">
         <div className="blog-post-container3">
           <Label text="Founder Of NuxtCommunity" new_prop="Owner"></Label>
-          <h3 className="blog-post-text156 Healine">NuxtCommunity</h3>
-          <span className="blog-post-text157 TextXL">Siapa Foundernya?</span>
+          <h3 className="blog-post-text151 Healine">NuxtCommunity</h3>
+          <span className="blog-post-text152 TextXL">Siapa Foundernya?</span>
         </div>
         <ArticleCard
           new_prop="iotzbruhh"
@@ -431,8 +425,8 @@ const BlogPost = (props) => {
         ></ArticleCard>
         <div className="blog-post-container4">
           <Label text="Founder Of Hallsmp"></Label>
-          <h3 className="blog-post-text158 Healine">Hallsmp</h3>
-          <span className="blog-post-text159 TextXL">
+          <h3 className="blog-post-text153 Healine">Hallsmp</h3>
+          <span className="blog-post-text154 TextXL">
             Who Are The Founder Of Hallsmp?
           </span>
         </div>

@@ -8,6 +8,7 @@ const Label = (props) => {
   return (
     <div className="label-container">
       <h6 className="label-text">{props.text}</h6>
+      <div>Placeholder for widget timer</div>
     </div>
   )
 }
